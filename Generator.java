@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * The Generator class represents a generic resource generating item in the game.
  * Generators have a name, a construction cost, and a resource production rate.
  */
-public class Generator implements Comparable<Generator> {
+public class Generator implements Comparable<Generator>, Score {
     private String name;
     private ArrayList<Resource> constructionCost;
     private int resourceProductionRate;
